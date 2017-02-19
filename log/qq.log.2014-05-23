@@ -1,0 +1,194 @@
+2014-05-23 10:53:42,368 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2014-05-23 10:53:42,462 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2014-05-23 10:53:42,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] OPEN
+2014-05-23 10:53:42,930 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] CONNECT: /0.0.0.0:8360
+2014-05-23 10:53:44,022 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] CLOSE
+2014-05-23 10:53:44,022 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] CLOSED
+2014-05-23 10:53:44,022 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] EXCEPTION: java.net.ConnectException: Connection refused: no further information
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:574)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:148)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:104)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:78)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:41)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-05-23 10:53:44,054 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] CLOSE
+2014-05-23 10:53:44,054 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x1c966e88] CLOSE
+2014-05-23 10:53:44,054 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:574)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:148)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:104)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:78)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:41)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-05-23 10:54:08,022 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2014-05-23 10:54:08,022 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2014-05-23 10:54:25,697 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2014-05-23 10:54:25,712 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2014-05-23 10:54:25,775 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4] CONNECT: /0.0.0.0:8360
+2014-05-23 10:54:25,775 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4] OPEN
+2014-05-23 10:54:25,806 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4, /192.168.0.100:51690 => /0.0.0.0:8360] BOUND: /192.168.0.100:51690
+2014-05-23 10:54:25,806 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4, /192.168.0.100:51690 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2014-05-23 10:54:25,806 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4, /192.168.0.100:51690 => /0.0.0.0:8360] WRITE: saisai登录了！
+2014-05-23 10:54:25,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4, /192.168.0.100:51690 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2014-05-23 10:54:25,946 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 => /192.168.0.100:8360] OPEN
+2014-05-23 10:54:25,946 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 => /192.168.0.100:8360] BOUND: /192.168.0.100:8360
+2014-05-23 10:54:25,946 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 => /192.168.0.100:8360] CONNECTED: /192.168.0.100:51690
+2014-05-23 10:54:26,010 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 => /192.168.0.100:8360] RECEIVED: saisai登录了！
+2014-05-23 10:54:26,057 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 => /192.168.0.100:8360] WRITE: 登录成功！
+2014-05-23 10:54:26,072 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 => /192.168.0.100:8360] WRITTEN_AMOUNT: 17
+2014-05-23 10:54:26,103 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2c67d6c4, /192.168.0.100:51690 => /0.0.0.0:8360] RECEIVED: 登录成功！
+2014-05-23 10:54:49,738 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 :> /192.168.0.100:8360] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:233)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:200)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:236)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-05-23 10:54:49,738 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 :> /192.168.0.100:8360] CLOSE
+2014-05-23 10:54:49,738 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 :> /192.168.0.100:8360] CLOSE
+2014-05-23 10:54:49,738 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:233)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:200)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:236)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-05-23 10:54:49,738 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 :> /192.168.0.100:8360] DISCONNECTED
+2014-05-23 10:54:49,738 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 :> /192.168.0.100:8360] UNBOUND
+2014-05-23 10:54:49,738 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9b2a6366, /192.168.0.100:51690 :> /192.168.0.100:8360] CLOSED
+2014-05-23 10:54:55,138 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2014-05-23 10:54:55,138 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2014-05-23 10:54:55,216 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda] OPEN
+2014-05-23 10:54:55,216 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda] CONNECT: /0.0.0.0:8360
+2014-05-23 10:54:55,232 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] OPEN
+2014-05-23 10:54:55,232 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] BOUND: /192.168.0.100:8360
+2014-05-23 10:54:55,232 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] CONNECTED: /192.168.0.100:51713
+2014-05-23 10:54:55,232 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] BOUND: /192.168.0.100:51713
+2014-05-23 10:54:55,232 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2014-05-23 10:54:55,232 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] WRITE: saisai登录了！
+2014-05-23 10:54:55,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2014-05-23 10:54:55,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] RECEIVED: saisai登录了！
+2014-05-23 10:54:55,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] WRITE: 登录成功！
+2014-05-23 10:54:55,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] WRITTEN_AMOUNT: 17
+2014-05-23 10:54:55,264 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] RECEIVED: 登录成功！
+2014-05-23 10:55:04,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] WRITE: saisai null nihao
+2014-05-23 10:55:04,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] RECEIVED: saisai 2014-05-23 10:55:04 nihao
+2014-05-23 10:55:04,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] WRITE: saisai 2014-05-23 10:55:04 nihao
+2014-05-23 10:55:04,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 => /192.168.0.100:8360] WRITTEN_AMOUNT: 45
+2014-05-23 10:55:04,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3391fda, /192.168.0.100:51713 => /0.0.0.0:8360] RECEIVED: saisai 2014-05-23 10:55:04 nihao
+2014-05-23 10:55:38,712 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 :> /192.168.0.100:8360] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:233)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:200)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:236)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-05-23 10:55:38,712 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 :> /192.168.0.100:8360] CLOSE
+2014-05-23 10:55:38,712 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 :> /192.168.0.100:8360] CLOSE
+2014-05-23 10:55:38,712 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:233)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:200)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:236)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-05-23 10:55:38,727 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 :> /192.168.0.100:8360] DISCONNECTED
+2014-05-23 10:55:38,727 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 :> /192.168.0.100:8360] UNBOUND
+2014-05-23 10:55:38,727 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2321bdda, /192.168.0.100:51713 :> /192.168.0.100:8360] CLOSED
+2014-05-23 10:55:46,545 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2014-05-23 10:55:46,545 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2014-05-23 10:55:46,623 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7] OPEN
+2014-05-23 10:55:46,623 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7] CONNECT: /0.0.0.0:8360
+2014-05-23 10:55:46,639 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] OPEN
+2014-05-23 10:55:46,639 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] BOUND: /192.168.0.100:8360
+2014-05-23 10:55:46,639 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] CONNECTED: /192.168.0.100:51736
+2014-05-23 10:55:46,639 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] BOUND: /192.168.0.100:51736
+2014-05-23 10:55:46,639 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2014-05-23 10:55:46,639 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai登录了！
+2014-05-23 10:55:46,654 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai登录了！
+2014-05-23 10:55:46,654 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2014-05-23 10:55:46,654 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITE: 登录成功！
+2014-05-23 10:55:46,654 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITTEN_AMOUNT: 17
+2014-05-23 10:55:46,654 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] RECEIVED: 登录成功！
+2014-05-23 10:55:55,859 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai null 你好啊
+2014-05-23 10:55:55,875 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 49
+2014-05-23 10:55:55,875 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai 2014-05-23 10:55:55 你好啊
+2014-05-23 10:55:55,875 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITE: saisai 2014-05-23 10:55:55 你好啊
+2014-05-23 10:55:55,875 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITTEN_AMOUNT: 49
+2014-05-23 10:55:55,875 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] RECEIVED: saisai 2014-05-23 10:55:55 你好啊
+2014-05-23 10:56:06,359 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai null exit
+2014-05-23 10:56:06,375 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 44
+2014-05-23 10:56:06,375 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai 2014-05-23 10:56:06 exit
+2014-05-23 10:56:06,375 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITE: saisai 2014-05-23 10:56:06 exit
+2014-05-23 10:56:06,375 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITTEN_AMOUNT: 44
+2014-05-23 10:56:06,375 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] RECEIVED: saisai 2014-05-23 10:56:06 exit
+2014-05-23 10:56:21,914 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai null 还在吗
+2014-05-23 10:56:21,914 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai 2014-05-23 10:56:21 还在吗
+2014-05-23 10:56:21,914 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITE: saisai 2014-05-23 10:56:21 还在吗
+2014-05-23 10:56:21,914 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITTEN_AMOUNT: 49
+2014-05-23 10:56:21,914 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 49
+2014-05-23 10:56:21,914 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] RECEIVED: saisai 2014-05-23 10:56:21 还在吗
+2014-05-23 10:57:38,995 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai null exit
+2014-05-23 10:57:38,995 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 44
+2014-05-23 10:57:38,995 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai 2014-05-23 10:57:38 exit
+2014-05-23 10:57:38,995 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITE: saisai 2014-05-23 10:57:38 exit
+2014-05-23 10:57:38,995 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITTEN_AMOUNT: 44
+2014-05-23 10:57:38,995 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] RECEIVED: saisai 2014-05-23 10:57:38 exit
+2014-05-23 11:02:39,640 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai null 4
+2014-05-23 11:02:39,655 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 41
+2014-05-23 11:02:39,655 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai 2014-05-23 11:02:39 4
+2014-05-23 11:02:39,655 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITE: saisai 2014-05-23 11:02:39 4
+2014-05-23 11:02:39,655 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] WRITTEN_AMOUNT: 41
+2014-05-23 11:02:39,655 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] RECEIVED: saisai 2014-05-23 11:02:39 4
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITE: saisai退出！
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 => /0.0.0.0:8360] WRITTEN_AMOUNT: 14
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] RECEIVED: saisai退出！
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 => /192.168.0.100:8360] CLOSE
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 :> /0.0.0.0:8360] DISCONNECTED
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 :> /0.0.0.0:8360] UNBOUND
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 :> /192.168.0.100:8360] DISCONNECTED
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 :> /192.168.0.100:8360] UNBOUND
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x155043c3, /192.168.0.100:51736 :> /192.168.0.100:8360] CLOSED
+2014-05-23 11:03:50,981 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xdc1cdca7, /192.168.0.100:51736 :> /0.0.0.0:8360] CLOSED

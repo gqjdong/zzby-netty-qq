@@ -1,0 +1,920 @@
+2015-03-24 10:34:02,805 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:34:02,820 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:34:03,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891] CONNECT: /0.0.0.0:8360
+2015-03-24 10:34:03,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891] OPEN
+2015-03-24 10:34:03,133 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] OPEN
+2015-03-24 10:34:03,133 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:34:03,133 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:59891
+2015-03-24 10:34:03,149 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] BOUND: /10.13.188.188:59891
+2015-03-24 10:34:03,149 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:34:03,165 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] WRITE: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:34:03,227 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 10:34:03,243 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:34:03,243 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:34:03,258 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:34:03,274 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] RECEIVED: µÇÂ¼³É¹¦£¡
+2015-03-24 10:34:12,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] WRITE: saisai null ÔçÉÏºÃ
+2015-03-24 10:34:12,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] WRITTEN_AMOUNT: 49
+2015-03-24 10:34:12,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:34:12 ÔçÉÏºÃ
+2015-03-24 10:34:12,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:34:12 ÔçÉÏºÃ
+2015-03-24 10:34:12,901 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7ce7efc1, /10.13.188.188:59891 => /10.13.188.188:8360] WRITTEN_AMOUNT: 49
+2015-03-24 10:34:12,901 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe3f5a891, /10.13.188.188:59891 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:34:12 ÔçÉÏºÃ
+2015-03-24 10:35:13,233 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:35:13,233 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:35:13,342 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe] OPEN
+2015-03-24 10:35:13,342 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe] CONNECT: /0.0.0.0:8360
+2015-03-24 10:35:13,342 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] OPEN
+2015-03-24 10:35:13,357 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:35:13,357 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:59999
+2015-03-24 10:35:13,357 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] BOUND: /10.13.188.188:59999
+2015-03-24 10:35:13,357 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:35:13,357 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] WRITE: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:35:13,373 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 10:35:13,373 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:35:13,373 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:35:13,373 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:35:13,373 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] RECEIVED: µÇÂ¼³É¹¦£¡
+2015-03-24 10:35:21,846 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] WRITE: saisai null hello
+2015-03-24 10:35:21,846 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] WRITTEN_AMOUNT: 45
+2015-03-24 10:35:21,846 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:35:21 hello
+2015-03-24 10:35:21,846 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:35:21 hello
+2015-03-24 10:35:21,846 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x7509cd26, /10.13.188.188:59999 => /10.13.188.188:8360] WRITTEN_AMOUNT: 45
+2015-03-24 10:35:21,846 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x539ffdfe, /10.13.188.188:59999 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:35:21 hello
+2015-03-24 10:35:38,868 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:35:38,868 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:35:38,978 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a] CONNECT: /0.0.0.0:8360
+2015-03-24 10:35:38,978 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a] OPEN
+2015-03-24 10:35:38,993 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] OPEN
+2015-03-24 10:35:38,993 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:35:38,993 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] BOUND: /10.13.188.188:60103
+2015-03-24 10:35:38,993 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:60103
+2015-03-24 10:35:38,993 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:35:38,993 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] WRITE: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:35:39,009 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 10:35:39,009 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:35:39,009 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:35:39,009 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:35:39,009 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] RECEIVED: µÇÂ¼³É¹¦£¡
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16] CONNECT: /0.0.0.0:8360
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16] OPEN
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16, /10.13.188.188:60126 => /0.0.0.0:8360] WRITE: dongdongµÇÂ¼ÁË£¡
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] OPEN
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:60126
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16, /10.13.188.188:60126 => /0.0.0.0:8360] BOUND: /10.13.188.188:60126
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16, /10.13.188.188:60126 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16, /10.13.188.188:60126 => /0.0.0.0:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] RECEIVED: dongdongµÇÂ¼ÁË£¡
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] WRITE: dongdong null ÎÒµÇÂ½ÁË£¡
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] WRITTEN_AMOUNT: 19
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16, /10.13.188.188:60126 => /0.0.0.0:8360] RECEIVED: µÇÂ¼³É¹¦£¡
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] WRITTEN_AMOUNT: 54
+2015-03-24 10:35:39,024 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:35:39 ÎÒµÇÂ½ÁË£¡
+2015-03-24 10:36:11,366 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] WRITE: saisai null ÄãºÃ
+2015-03-24 10:36:11,366 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] WRITTEN_AMOUNT: 46
+2015-03-24 10:36:11,366 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:36:11 ÄãºÃ
+2015-03-24 10:36:11,366 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:36:11 ÄãºÃ
+2015-03-24 10:36:11,367 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] WRITTEN_AMOUNT: 46
+2015-03-24 10:36:11,367 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:36:11 ÄãºÃ
+2015-03-24 10:36:24,503 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] WRITE: saisai null ÄãºÃ
+2015-03-24 10:36:24,519 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x124dce1a, /10.13.188.188:60103 => /0.0.0.0:8360] WRITTEN_AMOUNT: 48
+2015-03-24 10:36:24,519 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf9e6510a, /10.13.188.188:60103 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:36:24 ÄãºÃ
+2015-03-24 10:36:24,519 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:36:24 ÄãºÃ
+2015-03-24 10:36:24,520 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb6d6b889, /10.13.188.188:60126 => /10.13.188.188:8360] WRITTEN_AMOUNT: 48
+2015-03-24 10:36:24,520 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x46881e16, /10.13.188.188:60126 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:36:24 ÄãºÃ
+2015-03-24 10:39:01,916 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:39:01,916 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:39:12,759 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:39:12,759 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:39:12,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6] OPEN
+2015-03-24 10:39:12,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6] CONNECT: /0.0.0.0:8360
+2015-03-24 10:39:12,837 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] BOUND: /10.13.188.188:60235
+2015-03-24 10:39:12,837 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:39:12,837 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 10:39:12,852 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 10:39:12,852 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] OPEN
+2015-03-24 10:39:12,852 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:39:12,852 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:60235
+2015-03-24 10:39:12,868 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:39:12,869 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:39:12,869 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:39:12,869 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 10:39:22,853 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:39:22,853 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:39:22,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e] CONNECT: /0.0.0.0:8360
+2015-03-24 10:39:22,900 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e] OPEN
+2015-03-24 10:39:22,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] OPEN
+2015-03-24 10:39:22,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:39:22,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:60259
+2015-03-24 10:39:22,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] BOUND: /10.13.188.188:60259
+2015-03-24 10:39:22,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:39:22,915 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITE: dongdongç™»å½•äº†ï¼
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] RECEIVED: dongdongµÇÂ¼ÁË£¡
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITE: dongdong null ÎÒµÇÂ½ÁË£¡
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] WRITTEN_AMOUNT: 19
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITTEN_AMOUNT: 54
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:39:22 æˆ‘ç™»é™†äº†ï¼
+2015-03-24 10:39:22,916 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 10:39:50,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITE: saisai null hello saisai
+2015-03-24 10:39:50,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITTEN_AMOUNT: 52
+2015-03-24 10:39:50,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:39:50 hello saisai
+2015-03-24 10:39:50,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:39:50 hello saisai
+2015-03-24 10:39:50,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITTEN_AMOUNT: 52
+2015-03-24 10:39:50,265 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:39:50 hello saisai
+2015-03-24 10:41:21,201 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITE: saisai null hello dongdong
+2015-03-24 10:41:21,217 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITTEN_AMOUNT: 56
+2015-03-24 10:41:21,217 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:41:21 hello dongdong
+2015-03-24 10:41:21,217 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:41:21 hello dongdong
+2015-03-24 10:41:21,217 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] WRITTEN_AMOUNT: 56
+2015-03-24 10:41:21,217 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:41:21 hello dongdong
+2015-03-24 10:41:37,505 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITE: dongdong null hello saisai
+2015-03-24 10:41:37,505 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITTEN_AMOUNT: 54
+2015-03-24 10:41:37,521 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 10:41:37 hello saisai
+2015-03-24 10:41:37,521 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 10:41:37 hello saisai
+2015-03-24 10:41:37,521 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITTEN_AMOUNT: 54
+2015-03-24 10:41:37,521 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:41:37 hello saisai
+2015-03-24 10:42:31,608 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITE: dongdong null nice to meet you
+2015-03-24 10:42:31,608 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITTEN_AMOUNT: 58
+2015-03-24 10:42:31,608 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 10:42:31 nice to meet you
+2015-03-24 10:42:31,608 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 10:42:31 nice to meet you
+2015-03-24 10:42:31,608 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITTEN_AMOUNT: 58
+2015-03-24 10:42:31,608 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:42:31 nice to meet you
+2015-03-24 10:43:31,217 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITE: saisai null nice to meet you too
+2015-03-24 10:43:31,233 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] WRITTEN_AMOUNT: 62
+2015-03-24 10:43:31,233 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:43:31 nice to meet you too
+2015-03-24 10:43:31,233 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 10:43:31 nice to meet you too
+2015-03-24 10:43:31,233 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] WRITTEN_AMOUNT: 62
+2015-03-24 10:43:31,233 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:43:31 nice to meet you too
+2015-03-24 10:46:08,860 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITE: dongdong null æµ£çŠ²ã‚½
+2015-03-24 10:46:08,860 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 => /0.0.0.0:8360] WRITTEN_AMOUNT: 51
+2015-03-24 10:46:08,860 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xc3f414d6, /10.13.188.188:60259 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 10:46:08 ä½ å¥½
+2015-03-24 10:46:08,860 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 10:46:08 ä½ å¥½
+2015-03-24 10:46:08,861 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xfdaf299f, /10.13.188.188:60235 => /10.13.188.188:8360] WRITTEN_AMOUNT: 51
+2015-03-24 10:46:08,861 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:46:08 æµ£çŠ²ã‚½
+2015-03-24 10:46:23,558 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 :> /0.0.0.0:8360] EXCEPTION: java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:46:23,590 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 :> /0.0.0.0:8360] CLOSE
+2015-03-24 10:46:23,558 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 :> /0.0.0.0:8360] EXCEPTION: java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:46:23,590 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 :> /0.0.0.0:8360] CLOSE
+2015-03-24 10:46:23,590 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:46:23,590 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 10:46:23,590 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 10:46:23,590 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x269f069e, /10.13.188.188:60259 :> /0.0.0.0:8360] CLOSED
+2015-03-24 10:46:23,590 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:46:23,591 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 10:46:23,591 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 10:46:23,591 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xb66d0fa6, /10.13.188.188:60235 :> /0.0.0.0:8360] CLOSED
+2015-03-24 10:46:34,185 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:46:34,185 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:46:41,221 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:46:41,221 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:46:41,268 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208] OPEN
+2015-03-24 10:46:41,268 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208] CONNECT: /0.0.0.0:8360
+2015-03-24 10:46:41,283 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 => /0.0.0.0:8360] BOUND: /10.13.188.188:60859
+2015-03-24 10:46:41,283 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:46:41,283 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 10:46:41,299 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] OPEN
+2015-03-24 10:46:41,299 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:46:41,299 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:60859
+2015-03-24 10:46:41,299 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 10:46:41,300 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:46:41,300 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:46:41,300 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:46:41,300 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 10:46:47,415 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:46:47,415 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:46:47,477 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0] CONNECT: /0.0.0.0:8360
+2015-03-24 10:46:47,477 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0] OPEN
+2015-03-24 10:46:47,477 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9ce77fc5, /10.13.188.188:60884 => /10.13.188.188:8360] OPEN
+2015-03-24 10:46:47,493 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9ce77fc5, /10.13.188.188:60884 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:46:47,493 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9ce77fc5, /10.13.188.188:60884 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:60884
+2015-03-24 10:46:47,493 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 => /0.0.0.0:8360] BOUND: /10.13.188.188:60884
+2015-03-24 10:46:47,493 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:46:47,493 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 => /0.0.0.0:8360] WRITE: dongdongç™»å½•äº†ï¼
+2015-03-24 10:46:47,493 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9ce77fc5, /10.13.188.188:60884 => /10.13.188.188:8360] RECEIVED: dongdongµÇÂ¼ÁË£¡
+2015-03-24 10:46:47,494 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 => /0.0.0.0:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:46:47,494 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9ce77fc5, /10.13.188.188:60884 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:46:47,494 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] WRITE: dongdong null ÎÒµÇÂ½ÁË£¡
+2015-03-24 10:46:47,494 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 10:46:47,494 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:46:47 æˆ‘ç™»é™†äº†ï¼
+2015-03-24 10:46:47,495 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5482e6f0, /10.13.188.188:60859 => /10.13.188.188:8360] WRITTEN_AMOUNT: 54
+2015-03-24 10:46:47,511 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x9ce77fc5, /10.13.188.188:60884 => /10.13.188.188:8360] WRITTEN_AMOUNT: 19
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 :> /0.0.0.0:8360] EXCEPTION: java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 :> /0.0.0.0:8360] CLOSE
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 :> /0.0.0.0:8360] EXCEPTION: java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 :> /0.0.0.0:8360] CLOSE
+2015-03-24 10:47:09,444 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 10:47:09,444 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2db875c0, /10.13.188.188:60884 :> /0.0.0.0:8360] CLOSED
+2015-03-24 10:47:09,444 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:47:09,445 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 10:47:09,445 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 10:47:09,445 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2cfa7208, /10.13.188.188:60859 :> /0.0.0.0:8360] CLOSED
+2015-03-24 10:47:26,529 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:47:26,529 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:47:35,671 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:47:35,671 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:47:35,749 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e] OPEN
+2015-03-24 10:47:35,749 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e] CONNECT: /0.0.0.0:8360
+2015-03-24 10:47:35,765 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] BOUND: /10.13.188.188:61269
+2015-03-24 10:47:35,765 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:47:35,765 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 10:47:35,780 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 10:47:35,780 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] OPEN
+2015-03-24 10:47:35,780 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:47:35,780 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:61269
+2015-03-24 10:47:35,796 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 10:47:35,813 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:47:35,813 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:47:35,813 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 10:47:46,857 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 10:47:46,857 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f] OPEN
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f] CONNECT: /0.0.0.0:8360
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] OPEN
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:61439
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] BOUND: /10.13.188.188:61439
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 10:47:46,920 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] WRITE: dongdongç™»å½•äº†ï¼
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] RECEIVED: dongdongµÇÂ¼ÁË£¡
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] WRITTEN_AMOUNT: 17
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] WRITE: dongdong null ÎÒµÇÂ½ÁË£¡
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] WRITTEN_AMOUNT: 19
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] WRITTEN_AMOUNT: 54
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:47:46 æˆ‘ç™»é™†äº†ï¼
+2015-03-24 10:47:46,921 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 10:47:58,170 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] WRITE: dongdong null hello
+2015-03-24 10:47:58,170 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] WRITTEN_AMOUNT: 47
+2015-03-24 10:47:58,170 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 10:47:58 hello
+2015-03-24 10:47:58,170 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 10:47:58 hello
+2015-03-24 10:47:58,170 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] WRITTEN_AMOUNT: 47
+2015-03-24 10:47:58,170 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 10:47:58 hello
+2015-03-24 10:48:19,137 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] WRITE: saisai null hello too
+2015-03-24 10:48:19,137 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 10:48:19 hello too
+2015-03-24 10:48:19,137 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf3f077e, /10.13.188.188:61269 => /0.0.0.0:8360] WRITTEN_AMOUNT: 51
+2015-03-24 10:48:19 hello too
+2015-03-24 10:48:19,137 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x79db7d61, /10.13.188.188:61439 => /10.13.188.188:8360] WRITTEN_AMOUNT: 51
+2015-03-24 10:48:19,137 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 10:48:19 hello too
+2015-03-24 10:51:53,179 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 => /10.13.188.188:8360] EXCEPTION: java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:51:53,179 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 :> /10.13.188.188:8360] CLOSE
+2015-03-24 10:51:53,179 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 :> /10.13.188.188:8360] CLOSE
+2015-03-24 10:51:53,179 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:51:53,179 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 :> /10.13.188.188:8360] DISCONNECTED
+2015-03-24 10:51:53,179 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 :> /10.13.188.188:8360] UNBOUND
+2015-03-24 10:51:53,179 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x42ab9156, /10.13.188.188:61269 :> /10.13.188.188:8360] CLOSED
+2015-03-24 10:51:54,413 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 :> /0.0.0.0:8360] EXCEPTION: java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:51:54,413 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 :> /0.0.0.0:8360] CLOSE
+2015-03-24 10:51:54,413 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.io.IOException: è¿œç¨‹ä¸»æœºå¼ºè¿«å…³é—­äº†ä¸€ä¸ªçŽ°æœ‰çš„è¿žæŽ¥ã€‚
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 10:51:54,414 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 10:51:54,414 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 10:51:54,414 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf744112f, /10.13.188.188:61439 :> /0.0.0.0:8360] CLOSED
+2015-03-24 11:04:20,421 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:04:20,421 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:04:20,483 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] OPEN
+2015-03-24 11:04:20,483 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] CONNECT: /0.0.0.0:8360
+2015-03-24 11:04:21,513 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] CLOSE
+2015-03-24 11:04:21,513 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] CLOSED
+2015-03-24 11:04:21,513 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] EXCEPTION: java.net.ConnectException: Connection refused: no further information
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:148)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:104)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:78)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:41)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:04:21,514 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] CLOSE
+2015-03-24 11:04:21,514 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xf5656991] CLOSE
+2015-03-24 11:04:21,514 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:148)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:104)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:78)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:41)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:04:36,428 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:04:36,444 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:04:52,387 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:04:52,387 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:04:52,450 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803] OPEN
+2015-03-24 11:04:52,450 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803] CONNECT: /0.0.0.0:8360
+2015-03-24 11:04:52,465 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] BOUND: /10.13.188.188:61949
+2015-03-24 11:04:52,465 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 11:04:52,465 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 11:04:52,481 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] OPEN
+2015-03-24 11:04:52,481 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 11:04:52,481 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:61949
+2015-03-24 11:04:52,481 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 11:04:52,482 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 11:04:52,482 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 11:04:52,482 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 11:04:52,498 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 11:04:59,143 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:04:59,143 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:04:59,206 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8] OPEN
+2015-03-24 11:04:59,206 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8] CONNECT: /0.0.0.0:8360
+2015-03-24 11:04:59,206 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] OPEN
+2015-03-24 11:04:59,221 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 11:04:59,221 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:61972
+2015-03-24 11:04:59,221 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] BOUND: /10.13.188.188:61972
+2015-03-24 11:04:59,221 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 11:04:59,221 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] WRITE: dongdongµÇÂ¼ÁË£¡
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] RECEIVED: dongdongµÇÂ¼ÁË£¡
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] WRITTEN_AMOUNT: 17
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITE: dongdong null ÎÒµÇÂ½ÁË£¡
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 11:04:59 æˆ‘ç™»é™†äº†ï¼
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] WRITTEN_AMOUNT: 19
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITTEN_AMOUNT: 54
+2015-03-24 11:04:59,222 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] RECEIVED: µÇÂ¼³É¹¦£¡
+2015-03-24 11:05:12,748 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] WRITE: dongdong null ÄãºÃ
+2015-03-24 11:05:12,764 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] WRITTEN_AMOUNT: 48
+2015-03-24 11:05:12,764 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 11:05:12 ÄãºÃ
+2015-03-24 11:05:12,764 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 11:05:12 ÄãºÃ
+2015-03-24 11:05:12,764 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITTEN_AMOUNT: 48
+2015-03-24 11:05:12,764 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 11:05:12 ä½ å¥½
+2015-03-24 11:05:28,677 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] WRITE: saisai null æµ£çŠ²ã‚½éŸï¿½
+2015-03-24 11:05:28,677 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] WRITTEN_AMOUNT: 57
+2015-03-24 11:05:28,677 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 11:05:28 ä½ å¥½å•?
+2015-03-24 11:05:28,677 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 11:05:28 ä½ å¥½å•?
+2015-03-24 11:05:28,678 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 11:05:28 ä½ å¥½å•?
+2015-03-24 11:05:28,678 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] WRITTEN_AMOUNT: 57
+2015-03-24 11:06:00,394 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] WRITE: dongdong null ÄãºÃ°¡
+2015-03-24 11:06:00,410 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] WRITTEN_AMOUNT: 51
+2015-03-24 11:06:00,410 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 11:06:00 ÄãºÃ°¡
+2015-03-24 11:06:00,410 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 11:06:00 ÄãºÃ°¡
+2015-03-24 11:06:00,410 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 11:06:00 ä½ å¥½å•Š
+2015-03-24 11:06:00,410 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] WRITTEN_AMOUNT: 51
+2015-03-24 11:06:19,461 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] WRITE: saisai null é™æˆ æ®‘é’€ã„¨å½¶
+2015-03-24 11:06:19,461 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x04a14803, /10.13.188.188:61949 => /0.0.0.0:8360] WRITTEN_AMOUNT: 60
+2015-03-24 11:06:19,461 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 11:06:19 å‘çš„è¨è²
+2015-03-24 11:06:19,461 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 11:06:19 å‘çš„è¨è²
+2015-03-24 11:06:19,461 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x5bbedc1b, /10.13.188.188:61972 => /10.13.188.188:8360] WRITTEN_AMOUNT: 60
+2015-03-24 11:06:19,462 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 11:06:19 å‘çš„è¨è²
+2015-03-24 11:07:29,724 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 :> /10.13.188.188:8360] EXCEPTION: java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:07:29,724 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:07:29,724 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:07:29,724 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:07:29,724 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 :> /10.13.188.188:8360] DISCONNECTED
+2015-03-24 11:07:29,724 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 :> /10.13.188.188:8360] UNBOUND
+2015-03-24 11:07:29,724 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xd6442800, /10.13.188.188:61949 :> /10.13.188.188:8360] CLOSED
+2015-03-24 11:07:38,246 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 :> /0.0.0.0:8360] EXCEPTION: java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:07:38,246 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 :> /0.0.0.0:8360] CLOSE
+2015-03-24 11:07:38,246 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.client.handler.DataMessageHandler.exceptionCaught() for proper handling.
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:07:38,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 11:07:38,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 11:07:38,247 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xaf8e13d8, /10.13.188.188:61972 :> /0.0.0.0:8360] CLOSED
+2015-03-24 11:08:21,295 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:08:21,295 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:08:43,497 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:08:43,497 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:09:17,045 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:09:17,045 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:09:31,682 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:09:31,682 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:09:37,377 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:09:37,377 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:09:37,439 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b] OPEN
+2015-03-24 11:09:37,439 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b] CONNECT: /0.0.0.0:8360
+2015-03-24 11:09:37,455 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] BOUND: /10.13.188.188:62324
+2015-03-24 11:09:37,455 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 11:09:37,455 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 11:09:37,471 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 11:09:37,471 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] OPEN
+2015-03-24 11:09:37,471 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 11:09:37,471 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:62324
+2015-03-24 11:09:37,472 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 11:09:37,472 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 11:09:37,472 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 11:09:37,472 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 11:09:46,675 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] WRITE: saisai null æµ£çŠ²ã‚½
+2015-03-24 11:09:46,675 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] WRITTEN_AMOUNT: 49
+2015-03-24 11:09:46,675 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 11:09:46 ä½ å¥½
+2015-03-24 11:09:46,676 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 11:09:46 ä½ å¥½
+2015-03-24 11:09:46,676 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 => /10.13.188.188:8360] WRITTEN_AMOUNT: 49
+2015-03-24 11:09:46,676 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x02f1114b, /10.13.188.188:62324 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 11:09:46 æµ£çŠ²ã‚½
+2015-03-24 11:10:42,803 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 :> /10.13.188.188:8360] EXCEPTION: java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:10:42,803 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:10:42,803 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:10:42,803 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:10:42,820 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 :> /10.13.188.188:8360] DISCONNECTED
+2015-03-24 11:10:42,820 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 :> /10.13.188.188:8360] UNBOUND
+2015-03-24 11:10:42,820 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xe671bc35, /10.13.188.188:62324 :> /10.13.188.188:8360] CLOSED
+2015-03-24 11:15:45,830 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:15:45,830 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:15:52,913 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:15:52,913 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:15:52,976 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a] CONNECT: /0.0.0.0:8360
+2015-03-24 11:15:52,976 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a] OPEN
+2015-03-24 11:15:52,991 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 11:15:53,007 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] BOUND: /10.13.188.188:62461
+2015-03-24 11:15:53,007 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 11:15:53,007 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 11:15:53,007 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] OPEN
+2015-03-24 11:15:53,007 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 11:15:53,022 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:62461
+2015-03-24 11:15:53,038 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 11:15:53,039 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 11:15:53,039 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 11:15:53,039 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 11:16:03,882 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] WRITE: saisai null æµ£çŠ²ã‚½
+2015-03-24 11:16:03,882 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] WRITTEN_AMOUNT: 49
+2015-03-24 11:16:03,882 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 11:16:03 ä½ å¥½
+2015-03-24 11:16:03,882 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 11:16:03 ä½ å¥½
+2015-03-24 11:16:03,882 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 => /10.13.188.188:8360] WRITTEN_AMOUNT: 49
+2015-03-24 11:16:03,882 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x2823233a, /10.13.188.188:62461 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 11:16:03 æµ£çŠ²ã‚½
+2015-03-24 11:16:25,957 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] EXCEPTION: java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:16:25,957 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:16:25,957 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:16:25,957 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:16:25,957 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] DISCONNECTED
+2015-03-24 11:16:25,957 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] UNBOUND
+2015-03-24 11:16:25,957 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSED
+2015-03-24 11:16:33,743 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:16:33,743 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:16:33,805 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf] OPEN
+2015-03-24 11:16:33,805 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf] CONNECT: /0.0.0.0:8360
+2015-03-24 11:16:33,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] OPEN
+2015-03-24 11:16:33,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 11:16:33,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:62487
+2015-03-24 11:16:33,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] BOUND: /10.13.188.188:62487
+2015-03-24 11:16:33,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 11:16:33,821 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] WRITE: dongdongµÇÂ¼ÁË£¡
+2015-03-24 11:16:33,822 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] RECEIVED: dongdongµÇÂ¼ÁË£¡
+2015-03-24 11:16:33,822 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 11:16:33,822 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] WRITTEN_AMOUNT: 17
+2015-03-24 11:16:33,822 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] WRITE: dongdong null ÎÒµÇÂ½ÁË£¡
+2015-03-24 11:16:33,822 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] RECEIVED: µÇÂ¼³É¹¦£¡
+2015-03-24 11:16:33,838 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] WRITTEN_AMOUNT: 19
+2015-03-24 11:16:33,838 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] EXCEPTION: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.cleanUpWriteBuffer(AbstractNioWorker.java:409)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.writeFromUserCode(AbstractNioWorker.java:127)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:99)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.Channels.write(Channels.java:725)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:71)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.handler.execution.ExecutionHandler.handleDownstream(ExecutionHandler.java:186)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleDownstream(LoggingHandler.java:338)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at qq.server.context.ChatContext.sentToAnother(ChatContext.java:116)
+	at qq.server.context.ChatContext.sentAllOthersUser(ChatContext.java:82)
+	at qq.server.hanlder.LoginRequestHandler.messageReceived(LoginRequestHandler.java:55)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleUpstream(LoggingHandler.java:332)
+	at org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable.doRun(ChannelUpstreamEventRunnable.java:43)
+	at org.jboss.netty.handler.execution.ChannelEventRunnable.run(ChannelEventRunnable.java:67)
+	at org.jboss.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor$ChildExecutor.run(OrderedMemoryAwareThreadPoolExecutor.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:16:33,853 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:16:33,853 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:16:33,853 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.nio.channels.ClosedChannelException
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.cleanUpWriteBuffer(AbstractNioWorker.java:409)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.writeFromUserCode(AbstractNioWorker.java:127)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:99)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.Channels.write(Channels.java:725)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:71)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.handler.execution.ExecutionHandler.handleDownstream(ExecutionHandler.java:186)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleDownstream(LoggingHandler.java:338)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at qq.server.context.ChatContext.sentToAnother(ChatContext.java:116)
+	at qq.server.context.ChatContext.sentAllOthersUser(ChatContext.java:82)
+	at qq.server.hanlder.LoginRequestHandler.messageReceived(LoginRequestHandler.java:55)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleUpstream(LoggingHandler.java:332)
+	at org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable.doRun(ChannelUpstreamEventRunnable.java:43)
+	at org.jboss.netty.handler.execution.ChannelEventRunnable.run(ChannelEventRunnable.java:67)
+	at org.jboss.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor$ChildExecutor.run(OrderedMemoryAwareThreadPoolExecutor.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:16:55,835 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] WRITE: dongdong null ÄãºÃ
+2015-03-24 11:16:55,835 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] WRITTEN_AMOUNT: 50
+2015-03-24 11:16:55,835 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] RECEIVED: dongdong 2015-03-24 11:16:55 ÄãºÃ
+2015-03-24 11:16:55,835 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] WRITE: dongdong 2015-03-24 11:16:55 ÄãºÃ
+2015-03-24 11:16:55,835 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] RECEIVED: dongdong 2015-03-24 11:16:55 ÄãºÃ
+2015-03-24 11:16:55,835 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] WRITTEN_AMOUNT: 50
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] WRITE: dongdongÍË³ö£¡
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 => /0.0.0.0:8360] WRITTEN_AMOUNT: 16
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] RECEIVED: dongdongÍË³ö£¡
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 => /10.13.188.188:8360] CLOSE
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 :> /0.0.0.0:8360] DISCONNECTED
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 :> /0.0.0.0:8360] UNBOUND
+2015-03-24 11:17:04,666 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x8c966adf, /10.13.188.188:62487 :> /0.0.0.0:8360] CLOSED
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] WRITE: dongdong null ÍË³öÁË£¡
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 :> /10.13.188.188:8360] DISCONNECTED
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 :> /10.13.188.188:8360] UNBOUND
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xea71f044, /10.13.188.188:62487 :> /10.13.188.188:8360] CLOSED
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] EXCEPTION: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.cleanUpWriteBuffer(AbstractNioWorker.java:409)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.writeFromUserCode(AbstractNioWorker.java:127)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:99)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.Channels.write(Channels.java:725)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:71)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.handler.execution.ExecutionHandler.handleDownstream(ExecutionHandler.java:186)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleDownstream(LoggingHandler.java:338)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at qq.server.context.ChatContext.sentToAnother(ChatContext.java:116)
+	at qq.server.context.ChatContext.sentAllOthersUser(ChatContext.java:82)
+	at qq.server.hanlder.LoginOutHandler.messageReceived(LoginOutHandler.java:44)
+	at qq.server.hanlder.DataMessageHandler.messageReceived(DataMessageHandler.java:24)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleUpstream(LoggingHandler.java:332)
+	at org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable.doRun(ChannelUpstreamEventRunnable.java:43)
+	at org.jboss.netty.handler.execution.ChannelEventRunnable.run(ChannelEventRunnable.java:67)
+	at org.jboss.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor$ChildExecutor.run(OrderedMemoryAwareThreadPoolExecutor.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:17:04,667 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x3bc30aee, /10.13.188.188:62461 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:17:04,667 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.nio.channels.ClosedChannelException
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.cleanUpWriteBuffer(AbstractNioWorker.java:409)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.writeFromUserCode(AbstractNioWorker.java:127)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:99)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.Channels.write(Channels.java:725)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:71)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.handler.execution.ExecutionHandler.handleDownstream(ExecutionHandler.java:186)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleDownstream(LoggingHandler.java:338)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:248)
+	at qq.server.context.ChatContext.sentToAnother(ChatContext.java:116)
+	at qq.server.context.ChatContext.sentAllOthersUser(ChatContext.java:82)
+	at qq.server.hanlder.LoginOutHandler.messageReceived(LoginOutHandler.java:44)
+	at qq.server.hanlder.DataMessageHandler.messageReceived(DataMessageHandler.java:24)
+	at org.jboss.netty.handler.logging.LoggingHandler.handleUpstream(LoggingHandler.java:332)
+	at org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable.doRun(ChannelUpstreamEventRunnable.java:43)
+	at org.jboss.netty.handler.execution.ChannelEventRunnable.run(ChannelEventRunnable.java:67)
+	at org.jboss.netty.handler.execution.OrderedMemoryAwareThreadPoolExecutor$ChildExecutor.run(OrderedMemoryAwareThreadPoolExecutor.java:314)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:17:51,424 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:17:51,424 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:19:38,568 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:19:38,568 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:20:06,391 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Using select timeout of 500
+2015-03-24 11:20:06,391 DEBUG [org.jboss.netty.channel.socket.nio.SelectorUtil] - Epoll-bug workaround enabled = false
+2015-03-24 11:20:06,453 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1] OPEN
+2015-03-24 11:20:06,453 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1] CONNECT: /0.0.0.0:8360
+2015-03-24 11:20:06,469 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] BOUND: /10.13.188.188:62676
+2015-03-24 11:20:06,469 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] CONNECTED: /0.0.0.0:8360
+2015-03-24 11:20:06,469 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] WRITE: saisaiç™»å½•äº†ï¼
+2015-03-24 11:20:06,484 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] OPEN
+2015-03-24 11:20:06,484 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] BOUND: /10.13.188.188:8360
+2015-03-24 11:20:06,484 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] CONNECTED: /10.13.188.188:62676
+2015-03-24 11:20:06,484 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] WRITTEN_AMOUNT: 15
+2015-03-24 11:20:06,485 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] RECEIVED: saisaiµÇÂ¼ÁË£¡
+2015-03-24 11:20:06,485 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] WRITE: µÇÂ¼³É¹¦£¡
+2015-03-24 11:20:06,485 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] WRITTEN_AMOUNT: 17
+2015-03-24 11:20:06,485 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] RECEIVED: ç™»å½•æˆåŠŸï¼
+2015-03-24 11:20:17,312 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] WRITE: saisai null å¨´ç–¯æ«£
+2015-03-24 11:20:17,312 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] WRITTEN_AMOUNT: 49
+2015-03-24 11:20:17,313 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] RECEIVED: saisai 2015-03-24 11:20:17 æµ·è™¹
+2015-03-24 11:20:17,313 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] WRITE: saisai 2015-03-24 11:20:17 æµ·è™¹
+2015-03-24 11:20:17,313 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 => /10.13.188.188:8360] WRITTEN_AMOUNT: 49
+2015-03-24 11:20:17,313 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0x85ec60d1, /10.13.188.188:62676 => /0.0.0.0:8360] RECEIVED: saisai 2015-03-24 11:20:17 å¨´ç–¯æ«£
+2015-03-24 11:20:22,771 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 :> /10.13.188.188:8360] EXCEPTION: java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:20:22,771 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:20:22,771 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 :> /10.13.188.188:8360] CLOSE
+2015-03-24 11:20:22,771 WARN [org.jboss.netty.channel.SimpleChannelUpstreamHandler] - EXCEPTION, please implement qq.server.hanlder.LoginOutHandler.exceptionCaught() for proper handling.
+java.io.IOException: Ô¶³ÌÖ÷»úÇ¿ÆÈ¹Ø±ÕÁËÒ»¸öÏÖÓÐµÄÁ¬½Ó¡£
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:202)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:169)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+2015-03-24 11:20:22,771 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 :> /10.13.188.188:8360] DISCONNECTED
+2015-03-24 11:20:22,771 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 :> /10.13.188.188:8360] UNBOUND
+2015-03-24 11:20:22,771 DEBUG [org.jboss.netty.handler.logging.LoggingHandler] - [id: 0xa6775aa4, /10.13.188.188:62676 :> /10.13.188.188:8360] CLOSED
